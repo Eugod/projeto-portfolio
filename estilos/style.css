@@ -224,6 +224,10 @@ body {
 /* CSS mobile ------------------------------------------------------ */
 
 @media (max-width: 1200px) {
+    .menuLink[disabled]:hover {
+        font-size: 1.63rem;
+    }
+
     .cabecalho {
         width: auto;
         padding-top: 10%;

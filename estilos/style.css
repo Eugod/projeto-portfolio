@@ -233,6 +233,8 @@ body {
 
     .menu {
         gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .menuLink {
@@ -264,6 +266,26 @@ body {
     .listaCurriculo,
     .lista {
         padding-left: 30px;
+        padding-right: 15px;
+    }
+
+    .conteudoProjetos .texto {
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .listaProjetos {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .listaProjetos li {
+        width: 90%;
+    }
+
+    .msgFinalPagina {
+        padding-left: 15px;
         padding-right: 15px;
     }
 }

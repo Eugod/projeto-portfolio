@@ -208,7 +208,7 @@ body {
 
 /* CSS hover ------------------------------------------------------ */
 
-@media (hover: hover) {
+@media all and (min-width: 1201px) {
     .menuLink:hover {
         text-decoration: underline;
         font-size: 1.63rem;

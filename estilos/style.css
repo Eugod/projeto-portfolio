@@ -43,11 +43,6 @@ body {
     transition: 400ms;
 }
 
-.menuLink:hover {
-    text-decoration: underline;
-    font-size: 1.63rem;
-}
-
 /* CSS home ------------------------------------------------------ */
 
 .container {
@@ -114,12 +109,6 @@ body {
     transition: 400ms;
 }
 
-.link:hover {
-    background-color: var(--cor-botoes-home);
-    font-size: 1.63rem;
-    padding: 4%;
-}
-
 .foto {
     width: 30%;
     border-radius: 10px;
@@ -148,10 +137,6 @@ body {
 .linkCertificado {
     color: var(--cor-terciaria);
     text-decoration: none;
-}
-
-.linkCertificado:hover {
-    text-decoration: underline;
 }
 
 /* CSS projetos ------------------------------------------------------ */
@@ -221,12 +206,28 @@ body {
     color: var(--cor-terciaria);
 }
 
+/* CSS hover ------------------------------------------------------ */
+
+@media (hover: hover) {
+    .menuLink:hover {
+        text-decoration: underline;
+        font-size: 1.63rem;
+    }
+
+    .link:hover {
+        background-color: var(--cor-botoes-home);
+        font-size: 1.63rem;
+        padding: 4%;
+    }
+
+    .linkCertificado:hover {
+        text-decoration: underline;
+    }
+}
+
 /* CSS mobile ------------------------------------------------------ */
 
 @media (max-width: 1200px) {
-    .menuLink[disabled]:hover {
-        font-size: 1.63rem;
-    }
 
     .cabecalho {
         width: auto;

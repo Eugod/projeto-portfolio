@@ -163,10 +163,15 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .listaProjetos li {
     width: 35%;
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 
 .listaProjetos li a {
@@ -222,6 +227,10 @@ body {
 
     .linkCertificado:hover {
         text-decoration: underline;
+    }
+
+    .listaProjetos li:hover {
+        background-color: var(--cor-botoes-home);
     }
 }
 

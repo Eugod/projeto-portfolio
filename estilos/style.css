@@ -48,7 +48,7 @@ body {
 .container {
     width: 70%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     margin: 3% auto;
     gap: 82px;
@@ -259,6 +259,7 @@ body {
         flex-direction: column-reverse;
         width: auto;
         justify-content: center;
+        align-items: center;
     }
 
     .conteudo {
